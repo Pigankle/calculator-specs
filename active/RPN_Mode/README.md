@@ -1,11 +1,80 @@
-Ensure that your pitch has been approved and moved into pre-production. When features enter this stage, a new working branch in this repo will be created: feature/<feature>
+> See comments in Markdown for tips on how to use this spec template
+### Add RPN Mode to Calculator 
+<!-- Update with a concise title describing your feature. -->
 
-Create a new directory for your spec under the active directory: /active/<feature>
+### Feature Pitch Link
+https://github.com/Microsoft/calculator/Issues/<issueNum>
+<!--
+Update this to reference the approved feature pitch, as that is where ongoing discussion will occur.
+-->
 
-Write your spec following the spec template, leveraging relative links when referencing images or other assets in the directory
+### Problem Statement
+<!--
+What problem are we trying to solve? Who"s the target audience? Is there a customer need or pain
+point we need to remedy? Is there a business goal or metric we are trying to improve? Do we have a
+hypothesis we want to prove or disprove?
+-->
 
-When your spec is ready for review, open a new pull request to merge your spec into the master branch
+### Evidence or User Insights
+<!--
+Why should we do this? Potential sources of data: Feedback Hub, other GitHub issues, other anecdotes
+from listening to customers in person or online, request from another team, telemetry data,
+user research, market or competitive research.
+-->
 
-Once all feedback has been addressed and your spec has been merged into master, your feature will move into production.
+### Proposal
+<!--
+How will the solution/feature help us solve the problem?
+How will it meet the target audience"s needs? If there are business goals or metrics,
+how does this improve them?
+-->
 
-After your feature ships, move your spec from active to archive
+### Goals and Non-Goals
+<!--
+Goals:
+What do you want to accomplish with this idea? These are not feature requirements,
+but rather broad goals you are trying to accomplish.
+-->
+
+<!--
+Non-Goals:
+What do you want to accomplish with this idea? These are not feature requirements,
+but rather broad goals you are trying to accomplish. -->
+
+### Success Criteria
+<!--
+How do we measure if things are successful?
+What"s the metric/KPI to track? Include proposed success metrics here.
+-->
+
+### Feature Requirements
+<!--
+Specific feature requirements or user scenarios.
+These typically starts with statements like "User can" or "API supports".
+Leave details for next section.
+-->
+
+### Feature Details and High-Fidelity Concept
+<!--
+Show a detailed look at the experience. Make sure you cover all possible flows.
+Include any alternative designs that were considered. Call out if strings being used are proposed
+or final. Don't forget about edge and error cases. Keep in mind compliance and other quality
+considerations. This should take the form of polished design comps and/or screenshots combined
+with textual descriptions.
+-->
+
+### Appendix
+<!--
+Phases:
+  For larger projects, it may be useful to break the plan into phases (e.g., crawl, walk, run).
+  If applicable, detail that plan here.
+
+Risks and Open Issues:
+  Call out any open issues, if applicable. Waht's left to solve or agree on?
+
+Resources:
+  Include links to any additional documentation or resources, if applicable.
+-->
+
+
+<!-- REMEMBER: Rename this to README.md before sending out your PR. -->
